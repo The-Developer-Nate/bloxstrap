@@ -10,17 +10,13 @@ An open-source, feature-packed alternative bootstrapper for Roblox.
 
 This a drop-in replacement for the stock Roblox bootstrapper, working more or less how you'd expect it to, while providing additional useful features. This does not touch or modify the game client itself, it's just a launcher! So don't worry, there's practically no risk of being banned for using this.
 
-Running into a problem or need help with something? [Check out the Wiki](https://github.com/pizzaboxer/bloxstrap/wiki). If you can't find anything, or would like to suggest something, please [submit an issue](https://github.com/pizzaboxer/bloxstrap/issues) or report it in our [Discord server](https://discord.gg/nKjV3mGq6R).
+Running into a problem or need help with something? [Check out the Wiki](https://github.com/The-Developer-Nate/bloxstrap/wiki). If you can't find anything, or would like to suggest something, please [submit an issue](https://github.com/The-Developer-Nate/bloxstrap/issues).
  
 Bloxstrap is only supported for PCs running Windows.
  
  ## Installing
-Download the [latest release of Bloxstrap](https://github.com/pizzaboxer/bloxstrap/releases/latest), and run it. Configure your preferences if needed, and install. That's about it!
-
-Alternatively, you can install Bloxstrap via [Winget](https://winstall.app/apps/pizzaboxer.Bloxstrap) by running this in a Command Prompt window:
-```
-> winget install bloxstrap
-```
+Download the [latest release of Bloxstrap](https://github.com/The-Developer-Nate/bloxstrap/releases/latest), and run it. Configure your preferences if needed, and install. That's about it!
+The latest builds (not releases) are located in Github Actions.
 
 You will also need the [.NET 6 Desktop Runtime](https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=win11-x64&apphost_version=6.0.16&gui=true). If you don't already have it installed, you'll be prompted to install it anyway. Be sure to install Bloxstrap after you've installed this.
 
@@ -33,6 +29,7 @@ Here's some of the features that Bloxstrap provides over the stock Roblox bootst
 
 * Persistent file modifications, includes re-adding the old death sound!
 * Support for easy and simple FastFlag editing, no need to mess around with a JSON file.
+* Easy toggleable cheats!
 * Painless and seamless support for Discord Rich Presence - no auth cookie needed!
 * A customizable launcher look
 * Lets you see what region your current server is located in
@@ -45,14 +42,15 @@ Bloxstrap also only runs whenever necessary, so it doesn't stay running in the b
 ## Screenshots
 
 <p float="left">
-    <img src="https://github.com/pizzaboxer/bloxstrap/assets/41478239/cd723d23-9bff-401e-aadf-deea265a3b1c" width="829" />
-    <img src="https://github.com/pizzaboxer/bloxstrap/assets/41478239/dcfd0cdf-1aae-45bb-849a-f7710ec63b28" width="435" />
-    <img src="https://github.com/pizzaboxer/bloxstrap/assets/41478239/e08cdf28-4f99-46b5-99f2-5c338aac86db" width="390" />
-    <img src="https://github.com/pizzaboxer/bloxstrap/assets/41478239/a45755cb-39da-49df-b0ad-456a139e2efc" Width="593" />
-    <img src="https://github.com/pizzaboxer/bloxstrap/assets/41478239/7ba35223-9115-401f-bbc1-d15e9c5fd79e" width="232" />
+    <img src="https://github.com/The-Developer-Nate/bloxstrap/assets/41478239/cd723d23-9bff-401e-aadf-deea265a3b1c" width="829" />
+    <img src="https://github.com/The-Developer-Nate/bloxstrap/assets/41478239/dcfd0cdf-1aae-45bb-849a-f7710ec63b28" width="435" />
+    <img src="https://github.com/The-Developer-Nate/bloxstrap/assets/41478239/e08cdf28-4f99-46b5-99f2-5c338aac86db" width="390" />
+    <img src="https://github.com/The-Developer-Nate/bloxstrap/assets/41478239/a45755cb-39da-49df-b0ad-456a139e2efc" Width="593" />
+    <img src="https://github.com/The-Developer-Nate/bloxstrap/assets/41478239/7ba35223-9115-401f-bbc1-d15e9c5fd79e" width="232" />
 <p>
 
 ## Special thanks
+* [@pizzaboxer](https://github.com/pizzaboxer) - Originally making bloxstrap
 * [@MaximumADHD](https://github.com/MaximumADHD) - Initially inspiring the idea for Bloxstrap with [Roblox Studio Mod Manager](https://github.com/MaximumADHD/Roblox-Studio-Mod-Manager).
 * [Multako](https://www.roblox.com/users/2485612194/profile) - Designing the Bloxstrap logo.
 * [@1011025m](https://github.com/1011025m) - Providing a method for disabling the Roblox desktop app.
