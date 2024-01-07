@@ -32,5 +32,10 @@ namespace Bloxstrap.UI.Elements.Menu.Pages
         {
 
         }
+
+        private void OptionControl_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
