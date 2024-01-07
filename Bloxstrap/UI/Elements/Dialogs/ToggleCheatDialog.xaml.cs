@@ -62,5 +62,10 @@ namespace Bloxstrap.UI.Elements.Dialogs
         {
             FFlag("FIntCameraFarZPlane", "0");
         }
+
+        private void ForceEnableScripts_Click(object sender, RoutedEventArgs e)
+        {
+            FFlag("FFlagBaseScriptEnabledProperty", "true");
+        }
     }
 }
