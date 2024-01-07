@@ -158,6 +158,7 @@ namespace Bloxstrap.UI.Elements.Menu.Pages
             var dialog = new ToggleCheatDialog();
             dialog.ShowDialog();
             ReloadList();
+            // this comment added just to make github actions work lol
         }
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
