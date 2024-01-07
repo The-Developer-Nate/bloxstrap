@@ -54,10 +54,7 @@ namespace Bloxstrap
             { "UI.Menu.Style.ABTest.1", "FFlagEnableMenuControlsABTest" },
             { "UI.Menu.Style.ABTest.2", "FFlagEnableMenuModernizationABTest" },
             { "UI.Menu.Style.ABTest.3", "FFlagEnableMenuModernizationABTest2" },
-            { "UI.Menu.Style.ABTest.4", "FFlagEnableV3MenuABTest3" },
-
-            { "Cheats.Speedhack", "FFlagDebugSimIntegrationStabilityTesting" },
-            { "Cheats.Wallglide", "DFFlagUnstickForceAttackInTenths" }
+            { "UI.Menu.Style.ABTest.4", "FFlagEnableV3MenuABTest3" }
         };
 
         // only one missing here is Metal because lol

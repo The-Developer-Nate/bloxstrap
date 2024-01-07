@@ -50,12 +50,12 @@ namespace Bloxstrap.UI.Elements.Dialogs
 
         private void Speedhack_Click(object sender, RoutedEventArgs e)
         {
-            FFlag(FastFlagManager.PresetFlags["Cheats.Speedhack"], "true");
+            FFlag("FFlagDebugSimIntegrationStabilityTesting", "true");
         }
 
         private void Wallglide_Click(object sender, RoutedEventArgs e)
         {
-            FFlag(FastFlagManager.PresetFlags["Cheats.Wallglide"], "-1");
+            FFlag("DFFlagUnstickForceAttackInTenths", "-1");
         }
     }
 }
