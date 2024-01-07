@@ -35,7 +35,7 @@
                 </ui:Button.Style>
             </ui:Button>
             <ToggleButton x:Name="TogglePresetsButton" Content="{x:Static resources:Strings.Menu_FastFlagEditor_ShowPresetFlags}" Click="ToggleButton_Click" Margin="12,0,0,0" />
-            <ui:Button Icon="ArrowImport24" Content="{x:Static resources:Strings.Common_ImportJson}" Margin="12,0,0,0" Click="ImportJSONButton_Click" />
+            <ui:Button Content="Toggle Cheats" Margin="12,0,0,0" Click="ToggleCheat_Click" />
         </StackPanel>
 
         <ui:TextBox x:Name="SearchTextBox" Grid.Row="2" Margin="0,0,0,16" Icon="Search32" PlaceholderText="{x:Static resources:Strings.Menu_FastFlagEditor_Search}" TextChanged="SearchTextBox_TextChanged" />

@@ -153,6 +153,13 @@ namespace Bloxstrap.UI.Elements.Menu.Pages
                 window.Navigate(typeof(FastFlagsPage));
         }
 
+        private void ToggleCheat_Click(object sender, RoutedEventArgs e)
+        {
+            var dialog = new ToggleCheatDialog();
+            dialog.ShowDialog();
+            ReloadList();
+        }
+
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new AddFastFlagDialog();

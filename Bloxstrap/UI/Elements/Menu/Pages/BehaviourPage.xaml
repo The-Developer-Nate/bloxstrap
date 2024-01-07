@@ -25,8 +25,9 @@
 
         <controls:OptionControl 
             Header="{x:Static resources:Strings.Menu_Behaviour_AutoUpdate_Title}"
-            Description="{x:Static resources:Strings.Menu_Behaviour_AutoUpdate_Description}">
-            <ui:ToggleSwitch IsChecked="{Binding UpdateCheckingEnabled, Mode=TwoWay}" />
+            Description="{x:Static resources:Strings.Menu_Behaviour_AutoUpdate_Description}"
+            IsEnabled="False">
+            <ui:ToggleSwitch IsChecked="False" IsEnabled="False" />
         </controls:OptionControl>
 
         <ui:CardExpander Margin="0,8,0,0" IsExpanded="True">
