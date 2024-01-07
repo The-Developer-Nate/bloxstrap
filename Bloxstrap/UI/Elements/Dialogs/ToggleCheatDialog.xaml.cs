@@ -63,9 +63,9 @@ namespace Bloxstrap.UI.Elements.Dialogs
             FFlag("FIntCameraFarZPlane", "0");
         }
 
-        private void CamZoomInf_Click(object sender, RoutedEventArgs e)
+        private void Hitboxes_Click(object sender, RoutedEventArgs e)
         {
-            FFlag("FIntCameraMaxZoomDistance", "10000000");
+            FFlag("DFFlagDebugDrawBroadPhaseAABBs", "true");
         }
     }
 }

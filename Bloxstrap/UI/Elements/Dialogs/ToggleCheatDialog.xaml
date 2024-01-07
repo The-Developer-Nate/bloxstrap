@@ -38,7 +38,7 @@
                 <Button MinWidth="100" Width="450" Margin="0,0,0,12" Content="Speedhack" Click="Speedhack_Click" />
                 <Button MinWidth="100" Width="450" Margin="0,0,0,12" Content="Wallglide" Click="Wallglide_Click" />
                 <Button MinWidth="100" Width="450" Margin="0,0,0,12" Content="XRay" Click="XRay_Click" />
-                <Button MinWidth="100" Width="450" Margin="0,0,0,0" Content="Infinite Zoom (works on some games)" Click="CamZoomInf_Click" />
+                <Button MinWidth="100" Width="450" Margin="0,0,0,0" Content="Hitboxes" Click="Hitboxes_Click" />
             </StackPanel>
         </Grid>
 
