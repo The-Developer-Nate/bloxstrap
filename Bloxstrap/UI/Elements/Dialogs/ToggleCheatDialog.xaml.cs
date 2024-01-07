@@ -63,9 +63,9 @@ namespace Bloxstrap.UI.Elements.Dialogs
             FFlag("FIntCameraFarZPlane", "0");
         }
 
-        private void ForceEnableScripts_Click(object sender, RoutedEventArgs e)
+        private void CamZoomInf_Click(object sender, RoutedEventArgs e)
         {
-            FFlag("FFlagBaseScriptEnabledProperty", "true");
+            FFlag("FIntCameraMaxZoomDistance", "10000000");
         }
     }
 }
