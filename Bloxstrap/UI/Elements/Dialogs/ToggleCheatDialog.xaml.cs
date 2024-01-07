@@ -57,5 +57,10 @@ namespace Bloxstrap.UI.Elements.Dialogs
         {
             FFlag("DFFlagUnstickForceAttackInTenths", "-1");
         }
+
+        private void XRay_Click(object sender, RoutedEventArgs e)
+        {
+            FFlag("FIntCameraFarZPlane", "0");
+        }
     }
 }
